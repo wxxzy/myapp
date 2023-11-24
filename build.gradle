@@ -25,6 +25,7 @@ configurations {
 }
 
 dependencies {
+    profile("org.grails.profiles:web:3.2.1")
     implementation("io.github.virtualdogbert:logback-groovy-config:1.12.4")
     implementation("org.grails:grails-core")
     implementation("org.grails:grails-logging")
